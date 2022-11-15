@@ -1,0 +1,13 @@
+{
+  "name": "interim-report",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev ",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.36.11",
+    "@slidev/theme-default": "*"
+  }
+}
