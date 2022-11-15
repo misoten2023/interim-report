@@ -1,63 +1,44 @@
 ---
-theme: default
-title: 中間報告
+theme: 'default'
+title: '中間報告'
 titleTemplate: '%s | Smart Classroom'
 info: false
 download: false
-exportFilename: interim-report
-highlighter: prism
+exportFilename: 'interim-report'
+highlighter: 'prism'
 lineNumbers: true
 codeCopy: true
 monaco: false
 remoteAssets: false
 selectable: false
 record: false
-colorSchema: auto
-routerMode: history
-aspectRatio: 16/9
+colorSchema: 'auto'
+routerMode: 'history'
+aspectRatio: '16/9'
 canvasWidth: 980
-favicon: /fav.png
-plantUmlServer: https://www.plantuml.com/plantuml
-css: windicss
+favicon: '/fav.png'
+plantUmlServer: 'https://www.plantuml.com/plantuml'
+css: 'unocss'
 fonts:
-  sans: Klee One
-  serif: Yuji Syuku
-  mono: Zen Kurenaido
+  sans: 'Klee One'
+  serif: 'Yuji Syuku'
+  mono: 'Zen Kurenaido'
 defaults:
-  layout: default
+  layout: 'default'
 drawings:
   persist: false
   enabled: true
   presenterOnly: true
   syncAll: true
+
+layout: cover
 ---
 
 # Smart Classroom
-## 新しい教室を！
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+AIの力で新しい教室の未来を！ 
 
 ---
-title: 'sample'
----
+
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
