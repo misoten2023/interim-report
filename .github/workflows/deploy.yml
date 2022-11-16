@@ -7,11 +7,11 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
       - name: Install dependencies
-        run: npm install
+        run: yarn install
       - name: Install slidev
-        run:  npm i -g @slidev/cli
+        run:  yarn global add @slidev/cli
       - name: Build
         run: slidev build --base /interim-report
       - name: Deploy pages
