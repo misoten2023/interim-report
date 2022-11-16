@@ -2,9 +2,10 @@
 
 To start the slide show:
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+- `yarn`
+- `yarn dev`
+- スライド閲覧 http://localhost:3030
+- 発表者用画面 hhtp://localhost:3030/presenter/
 
 Edit the [slides.md](./slides.md) to see the changes.
 
