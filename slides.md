@@ -99,6 +99,7 @@ h1 {
 
 <style>
 h1 {
+  @apply font-bold;
   background-color: #2B90B6;
   background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
   background-size: 100%;
@@ -113,6 +114,83 @@ h1 {
 機能例1です。  
 授業内容のテキスト化です。  
 マイクで収集した音声をテキスト化するものです。  
+ -->
+
+---
+
+# 実装機能
+
+## 2. 学習ログのオンライン管理
+
+<br>
+
+### 現状の問題点
+
+今の教育は一律・一斉・一方向型の授業で、  
+一人ひとりが個別最適化された学びを進める環境はありません。  
+そのため、持てる能力をのびやかに育むことができません。  
+原因としまして、発達状況や日々の学習記録がカルテのように   
+蓄積されていないからです。
+
+<!-- TODO ここに画像とシステムの内容を入れておく -->
+
+<style>
+h1 {
+  @apply font-bold;
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!-- 
+機能例2です。  
+生徒一人一人の学習状況をオンラインで管理し、  
+その学習ログから得意分野と不得意分野を分析し、  
+一人ひとりにあった学習プランを提供します。  
+ -->
+
+---
+
+# 実装機能
+
+## 3. 集中力の可視化
+
+<br>
+
+### 現状の問題点
+
+- 授業中は誰が集中しているかわからない
+- 生徒は自分がどういう時に集中できるかわからない
+
+といった集中しているかどうかが、定量的にわからず  
+より良い成果の出し方が本人もわからない、  
+授業中も全員を均等に見れないという現状があります。
+
+<!-- TODO ここに画像とシステムの内容を入れておく -->
+
+<style>
+h1 {
+  @apply font-bold;
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!-- 
+機能例3です。  
+生徒の集中力をカメラから得た映像を用いて分析します。  
+先生はどの生徒が授業に集中できているのか、リアルタイムで手元で確認できます。  
+生徒も自分のどういったときに集中できているのか認識との乖離を確認できます。  
  -->
 --- 
 
