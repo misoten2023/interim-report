@@ -1,0 +1,75 @@
+.speech-bubble-1 {
+    @apply relative opacity-80 bg-blue-500 p-3 rounded-xl text-xs text-opacity-100;
+}
+
+.speech-bubble-1::before {
+    content: "";
+    clip-path: polygon(0 100%, 0 0, 100% 50%);
+    width: 1rem;
+    height: 1.5rem;
+    @apply absolute top-1/2 -right-[0.9rem] bg-blue-500;
+}
+
+
+.speech-bubble-2 {
+    @apply relative opacity-80 bg-blue-500 p-3 rounded-xl text-xs text-opacity-100;
+}
+
+.speech-bubble-2::before {
+    content: "";
+    clip-path: polygon(0 8px, 1rem 0, 100% 100%);
+    width: 1rem;
+    height: 1.5rem;
+    @apply absolute top-3/4 right-0 bg-blue-500;
+}
+
+.speech-bubble-3 {
+    @apply relative opacity-80 bg-blue-500 p-3 rounded-xl text-xs text-opacity-100;
+}
+
+.speech-bubble-3::before {
+    content: "";
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    width: 2rem;
+    height: 1.5rem;
+    @apply absolute top-full right-[100px] bg-blue-500;
+}
+
+
+.speech-bubble-4 {
+    @apply relative opacity-80 bg-blue-500 p-3 rounded-xl text-xs text-opacity-100;
+}
+
+.speech-bubble-4::before {
+    content: "";
+    clip-path: polygon(100% 100%, 0 50%, 100% 0);
+    width: 2rem;
+    height: 1.5rem;
+    @apply absolute top-1/2 -left-[30px] bg-blue-500;
+}
+
+
+.speech-bubble-5 {
+    @apply relative opacity-80 bg-blue-500 p-3 rounded-xl text-xs text-opacity-100;
+}
+
+.speech-bubble-5::before {
+    content: "";
+    clip-path: polygon(65% 100%, 0 0, 100% 15px);
+    width: 3rem;
+    height: 2rem;
+    @apply absolute -top-[15px] -left-[30px] bg-blue-500;
+}
+
+
+.speech-bubble-6 {
+    @apply relative opacity-80 bg-blue-500 p-3 rounded-xl text-xs text-opacity-100;
+}
+
+.speech-bubble-6::before {
+    content: "";
+    clip-path: polygon(43% 100%, 0 15px, 100% 0);
+    width: 3rem;
+    height: 3rem;
+    @apply absolute -top-[15px] left-[170px] bg-blue-500;
+}
