@@ -18,11 +18,10 @@ aspectRatio: '16/9'
 canvasWidth: 980
 favicon: '/fav.png'
 plantUmlServer: 'https://www.plantuml.com/plantuml'
-css: 'unocss'
+css: 'windicss'
 fonts:
   sans: 'Klee One'
   serif: 'Yuji Syuku'
-  mono: 'Zen Kurenaido'
 defaults:
   layout: 'default'
 drawings:
@@ -37,29 +36,27 @@ layout: cover
 # Smart Classroom
 AIの力で新しい教室の未来を！ 
 
+<!-- 
+それではOH445の中間発表を始めます。  
+私たちが今回提案するのは `Smart Classroom` です。
+-->
+
 ---
 
-# What is Slidev?
+# 企画概要
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+『<span class="text-red-400 font-bold">AI×教育</span>』AIの力で新しい教室の未来を！
 
 <br>
+
+### 教育の課題点
+
+~ 教員の不足とそれに伴う生徒個人の指導不足 ~
+
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+- 
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
 
 <style>
 h1 {
@@ -74,10 +71,50 @@ h1 {
 </style>
 
 <!--
-Here is another comment.
+企画の概要ですが、  
+"『AI×教育』AIの力で新しい教室の未来を！"  
+という企画です。  
+具体的には、
 -->
 
 ---
+
+# 実装機能
+
+## 1. 授業内容のテキスト化
+
+<br>
+
+### 現状の問題点
+
+- 授業を聞き逃してしまった
+- 声が届かず聞こえなかった
+- 耳が不自由で授業に参加できない
+- 留学で日本語がまだ得意ではない
+
+など、様々な場合で音声のみだと不便が生じることがあり、  
+学業を困難にしてしまうことがあります。
+
+<!-- TODO ここに画像とシステムの内容を入れておく -->
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!-- 
+機能例1です。  
+授業内容のテキスト化です。  
+マイクで収集した音声をテキスト化するものです。  
+ -->
+--- 
 
 # Navigation
 
