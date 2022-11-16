@@ -56,10 +56,10 @@ h1 {
 
 ~ 教員の不足とそれに伴う生徒個人の指導不足 ~
 
-<img class="w-xs mx-auto" src="classroom.webp">
-<img class="absolute top-70 left-98 w-[30px]" src="sensor.webp">
-<img class="absolute top-63 left-138 w-[40px]" src="camera.webp">
-<img class="absolute top-90 left-150 w-[30px]" src="microphone.webp">
+<img class="w-xs mx-auto" src="/classroom.webp">
+<img class="absolute top-70 left-98 w-[30px]" src="/sensor.webp">
+<img class="absolute top-63 left-138 w-[40px]" src="/camera.webp">
+<img class="absolute top-90 left-150 w-[30px]" src="/microphone.webp">
 
 <!-- 吹き出しとかもろもろ -->
 <div class="absolute top-55 left-60">
@@ -139,27 +139,27 @@ h1 {
 
 <div class="grid grid-cols-2 grid-rows-2 gap-4">
   <div>
-    <img src="robot.webp" class="w-auto h-[150px] mx-auto mb-2">
+    <img src="/robot.webp" class="w-auto h-[150px] mx-auto mb-2">
     <div class="text-center">
       1人1人専用のAI<br>
       (友達であり先生)
     </div>
   </div>
   <div>
-    <img src="door.webp" class="w-auto h-[150px] mx-auto mb-2">
+    <img src="/door.webp" class="w-auto h-[150px] mx-auto mb-2">
     <div class="text-center">
       映像や学習ログから<br>
       出席や進捗を自動集計
     </div>
   </div>
   <div>
-    <img src="report.webp" class="w-auto h-[150px] mx-auto mb-2">
+    <img src="/report.webp" class="w-auto h-[150px] mx-auto mb-2">
     <div class="text-center">
       AIが生徒の理解度や興味、関心を記録
     </div>
   </div>
   <div>
-    <img src="browser.webp" class="w-auto h-[150px] mx-auto mb-2">
+    <img src="/browser.webp" class="w-auto h-[150px] mx-auto mb-2">
     <div class="text-center">
       黒板からの脱却<br>
       誰もがどこからでも受けられる授業
