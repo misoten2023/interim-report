@@ -18,7 +18,6 @@ aspectRatio: '16/9'
 canvasWidth: 980
 favicon: '/fav.png'
 plantUmlServer: 'https://www.plantuml.com/plantuml'
-remote: true
 css: 'windicss'
 fonts:
   sans: 'Klee One'
