@@ -194,7 +194,7 @@ h1 {
 など、様々な場合で音声のみだと不便が生じることがあり、  
 学業を困難にしてしまうことがあります。
 
-<!-- TODO ここに画像とシステムの内容を入れておく -->
+<img src="/tablet.webp" class="absolute w-[300px] top-20 right-20">
 
 <style>
 h1 {
@@ -260,7 +260,7 @@ h1 {
 より良い成果の出し方が本人もわからない、  
 授業中も全員を均等に見れないという現状があります。
 
-<!-- TODO ここに画像とシステムの内容を入れておく -->
+<img src="/student.webp" class="absolute w-[300px] top-20 right-20">
 
 <style>
 h1 {
@@ -311,3 +311,4 @@ function updateUser(id: number, update: User) {
   display: none;
 }
 </style>
+
