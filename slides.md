@@ -1,35 +1,33 @@
 ---
-theme: 'default'
-title: '中間報告'
-titleTemplate: '%s | Smart Classroom'
+theme: default
+titleTemplate: 'Smart Classroom'
 info: false
 download: false
-exportFilename: 'interim-report'
-highlighter: 'prism'
+exportFilename: interim-report
+highlighter: prism
 lineNumbers: true
 codeCopy: true
 monaco: false
 remoteAssets: false
 selectable: false
 record: false
-colorSchema: 'auto'
-routerMode: 'history'
-aspectRatio: '16/9'
+colorSchema: auto
+routerMode: history
+aspectRatio: 16/9
 canvasWidth: 980
-favicon: '/fav.png'
-plantUmlServer: 'https://www.plantuml.com/plantuml'
-css: 'windicss'
+favicon: /fav.png
+plantUmlServer: https://www.plantuml.com/plantuml
+css: windicss
 fonts:
-  sans: 'Klee One'
-  serif: 'Yuji Syuku'
+  sans: Klee One
+  serif: Yuji Syuku
 defaults:
-  layout: 'default'
+  layout: default
 drawings:
   persist: false
   enabled: true
   presenterOnly: true
   syncAll: true
-
 layout: cover
 ---
 
@@ -42,8 +40,8 @@ h1 {
 }
 </style>
 
-<!-- 
-それではOH445の中間発表を始めます。  
+<!--
+それではOH445の中間報告を始めます。  
 私たちが今回提案するのは `Smart Classroom` です。
 -->
 
@@ -187,6 +185,8 @@ AIが生徒の理解度や興味、関心を記録、
 黒板から脱却することで、誰もがどこからでも受けられる授業  
 
 などなど、の未来が想像できます。
+
+これらの未来を実現するために私たちが作る機能のですが、いくつか紹介します...
 -->
 
 ---
@@ -217,13 +217,18 @@ h1 {
 }
 </style>
 
-<!-- 
+<!--
 ではここからは先ほどの未来を想像するために今回実際に私たちが作成する機能例です。
 
 機能例1です。  
 授業内容のテキスト化です。  
-マイクで収集した音声をテキスト化するものです。  
- -->
+マイクで収集した音声をテキスト化するものです。
+
+//スライドを読む
+
+これらを解決するために、マイクから収集した音声を自動で文字に起こしていきます。
+また、留学生に対して、自動翻訳し苦手な言語でも学習しやすい環境を提供します。
+-->
 
 ---
 
@@ -252,12 +257,12 @@ h1 {
 }
 </style>
 
-<!-- 
+<!--
 機能例2です。  
 生徒一人一人の学習状況をオンラインで管理し、  
 その学習ログから得意分野と不得意分野を分析し、  
-一人ひとりにあった学習プランを提供します。  
- -->
+一人ひとりにあった学習プランを提供します。
+-->
 
 ---
 
@@ -292,3 +297,9 @@ h1 {
 先生はどの生徒が授業に集中できているのか、リアルタイムで手元で確認できます。  
 生徒も自分のどういったときに集中できているのか認識との乖離を確認できます。  
  -->
+
+---
+layout: center
+---
+
+## それでは実際に授業をやってみましょう！！
